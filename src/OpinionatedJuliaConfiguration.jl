@@ -18,8 +18,8 @@ function __init__()
     # Don't update all the time.
     Pkg.UPDATED_REGISTRY_THIS_SESSION[] = true
 
-    # Really don't update all the time
-    ENV["JULIA_CONDAPKG_OFFLINE"] = true
+    ## Really don't update all the time
+    #ENV["JULIA_CONDAPKG_OFFLINE"] = true  # doesn't work... unclear what is going on
 
     # Don't load from the main environment. (Because not in Manifest.toml)
     filter!(x -> x != "@v#.#", LOAD_PATH)
