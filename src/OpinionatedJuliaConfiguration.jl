@@ -31,4 +31,18 @@ function __init__()
 end
 
 
+function update()
+    current_env = Base.active_project()
+    @show current_env
+
+    major, minor, patch = split(string(VERSION), ".")
+    base_env = "v$major.$minor"
+    Pkg.activate(base_env, shared=true)
+    Pkg.update()
+    Pkg.status()
+
+    Pkg.activate(current_env)
+end
+
+
 end # module OpinionatedJuliaConfiguration
