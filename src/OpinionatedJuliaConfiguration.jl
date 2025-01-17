@@ -8,6 +8,7 @@ includes reducing the number of times things get updated.
 module OpinionatedJuliaConfiguration
 
 using Revise
+using Distributed  # preload for Revise
 using TestEnv
 using Pkg
 
