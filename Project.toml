@@ -1,7 +1,7 @@
 name = "OpinionatedJuliaConfiguration"
 uuid = "ae1caa3b-e115-4504-82eb-e2bbc42b9066"
 authors = ["Henry Gebhardt <gebhardt@caltech.edu>"]
-version = "0.2.2"
+version = "0.2.4"
 
 [deps]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
