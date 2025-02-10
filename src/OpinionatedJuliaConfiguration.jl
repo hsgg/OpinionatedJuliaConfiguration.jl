@@ -11,10 +11,10 @@ using Revise
 using Distributed  # preload for Revise
 using TestEnv
 using Pkg
-using LanguageServer
+using Reexport
 
 export TestEnv
-export LanguageServer
+@reexport using LanguageServer
 
 
 function __init__()
