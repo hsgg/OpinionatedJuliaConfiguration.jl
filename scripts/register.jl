@@ -39,7 +39,9 @@ end
 
 
 # register in registry
-register(; registry="WATCosmologyJuliaRegistry")
+if !("--no-register" in ARGS)
+    register(; registry="WATCosmologyJuliaRegistry")
+end
 
 
 # tag and push the tag
