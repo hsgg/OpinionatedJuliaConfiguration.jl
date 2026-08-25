@@ -11,6 +11,7 @@ using Revise
 using Distributed  # preload for Revise
 using TestEnv
 using Pkg
+using CompatHelperLocal
 
 export TestEnv
 
@@ -46,6 +47,11 @@ function update()
     Pkg.status()
 
     Pkg.activate(current_env)
+end
+
+
+function check_compat()
+    CompatHelperLocal.check(".")
 end
 
 
