@@ -12,6 +12,7 @@ using Distributed  # preload for Revise
 using TestEnv
 using Pkg
 using CompatHelperLocal
+using IJulia
 
 export TestEnv
 

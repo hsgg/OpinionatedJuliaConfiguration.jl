@@ -185,7 +185,7 @@ version = "3.5.6+0"
 deps = ["CompatHelperLocal", "Distributed", "IJulia", "Pkg", "Revise", "TestEnv"]
 path = "."
 uuid = "ae1caa3b-e115-4504-82eb-e2bbc42b9066"
-version = "0.2.9"
+version = "0.2.10"
 
 [[deps.OrderedCollections]]
 git-tree-sha1 = "05f45c2e0de6259db764adbfd2f1dc6d3f8de13c"
