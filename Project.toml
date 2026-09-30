@@ -1,15 +1,11 @@
 name = "OpinionatedJuliaConfiguration"
 uuid = "ae1caa3b-e115-4504-82eb-e2bbc42b9066"
-version = "0.2.10"
+version = "0.2.11"
 authors = ["Henry Gebhardt <gebhardt@caltech.edu>"]
 
 [deps]
 CompatHelperLocal = "5224ae11-6099-4aaa-941d-3aab004bd678"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
-IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 TestEnv = "1e6cf692-eddd-4d53-88a5-2d735e33781b"
-
-[compat]
-IJulia = "1.34.4"
